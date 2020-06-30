@@ -1,0 +1,26 @@
+{
+  "name": "super-tinypng",
+  "version": "1.0.1",
+  "description": "Tinypng without \"Too many files uploaded at once\" limit",
+  "main": "index.js",
+  "bin": {
+    "super-tinypng": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanyuzhang/super-tinypng.git"
+  },
+  "keywords": [
+    "tinypng",
+    "compress"
+  ],
+  "author": "chesszhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhanyuzhang/super-tinypng/issues"
+  },
+  "homepage": "https://github.com/zhanyuzhang/super-tinypng#readme"
+}
