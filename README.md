@@ -19,5 +19,7 @@ super-tinypng
 - 为了简化，不支持配置，只能压缩当前目录下的图片，并且会在当前目录下创建一个 output 目录，把压缩成功的图片放到里面
 
 ## 免责声明
+
 该仓库仅用于学习，如有商业用途，请购买官方的 pro 版：https://tinify.com/checkout/web-pro
+
 This Repo is only for study. 
