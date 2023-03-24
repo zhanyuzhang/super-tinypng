@@ -23,7 +23,7 @@ const root = cwd;
 const options = {
   method: 'POST',
   hostname: 'tinypng.com',
-  path: '/web/shrink',
+  path: '/backend/opt/shrink',
   headers: {
     rejectUnauthorized: false,
     'Postman-Token': Date.now(),
