@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-/** 
- * 
+/**
+ *
  * 参考： https://segmentfault.com/a/1190000015467084
  * 优化：通过 X-Forwarded-For 添加了动态随机伪IP，绕过 tinypng 的上传数量限制
- * 
+ *
  *  */
 
 const fs = require('fs');
@@ -146,7 +146,7 @@ function fileUpdate(imgpath, obj) {
   imgpath = path.join(outputDir, imgpath.replace(root, ''));
   const imgdir = path.dirname(imgpath);
 
-  
+
   if (!fs.existsSync(imgdir)) {
     fs.mkdirSync(imgdir, { recursive: true });
   }
@@ -176,5 +176,3 @@ function fileUpdate(imgpath, obj) {
   });
   req.end();
 }
-
-
